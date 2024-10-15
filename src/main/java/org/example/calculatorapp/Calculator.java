@@ -1,3 +1,5 @@
+package org.example.calculatorapp;
+
 public class Calculator {
     private double operand1;   // Stores the first operand
     private double operand2;   // Stores the second operand
@@ -5,9 +7,16 @@ public class Calculator {
     private  double result;     // Stores the result of the operation
     private boolean isError;   // Tracks if an error occurred (e.g., division by zero)
 
-    public double getResult();                  // Returns the result of the operation
-    public boolean isError();                   // Returns true if an error occurred (e.g., division by zero)
-    public void reset();                        // Resets all fields (for a new calculation)
+    public boolean isError()                   // Returns true if an error occurred (e.g., division by zero)
+    {
+        return false;
+    }
+
+    public void reset()                        // Resets all fields (for a new calculation)
+    {
+
+    }
+
     public void calculate(){
         if(this.operator == '+'){
             this.result = operand1 + operand2;
@@ -17,7 +26,7 @@ public class Calculator {
         else if(this.operator == '*'){this.result = operand1 * operand2;
         }
         else if(this.operator == '/' && operand2!=0 ){this.result = operand1 / operand2;
-         }
+        }
     };                    // Performs the calculation based on the operator
     public void setOperator(char operator) {
         this.operator = operator;
@@ -40,7 +49,7 @@ public class Calculator {
         return operand2;
     }
 
-    public int getResult() {
+    public double getResult() {
         return result;
     }
     public void setResult(int result) {
