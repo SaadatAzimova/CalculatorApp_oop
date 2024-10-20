@@ -27,6 +27,7 @@ Special Instructions / Known Issues
 
 
 OPERATION2: 88/0="NOT POSSIBLE TO CALCULATE"
+
 ![calc-reset](https://github.com/user-attachments/assets/e8d8d1ed-9f01-4e7f-98b8-980d59a10ac8)
 ![calc2-op1](https://github.com/user-attachments/assets/717024e6-c9bb-4965-98c4-65d707c4f5d6)
 ![calc2-op2](https://github.com/user-attachments/assets/db9c59be-b277-4400-85c1-c53a917c6af9)
