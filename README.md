@@ -2,6 +2,12 @@ CalculatorApp - JavaFX Calculator Application
   This is a simple JavaFX-based calculator application built using the Model-View-Controller (MVC) design pattern.
   The calculator can perform basic arithmetic operations like addition, subtraction, multiplication, and division, with appropriate error handling (e.g., division by zero).
 
+How to Run the Calculator Application
+    1.Clone the repository: Download or clone the project repository to your local machine.
+    2.Open the project: Use your preferred IDE to open the CalculatorApp project folder.
+    3.Configure JavaFX: If you're using JDK 11 or higher, make sure you have added the required JavaFX SDK. Configure your IDE to include JavaFX libraries in the module path.
+    4.Run the Application: Execute the CalculatorApp class (or the Main class if created separately) from your IDE to launch the calculator.
+
 How to Use the Calculator
     1.Input numbers: Press any of the digit buttons (0-9) to input numbers. The digits will be displayed in the text field.
     2.Choose an operator: After entering the first number, press one of the operator buttons (+, -, *, /) to select an arithmetic operation.
